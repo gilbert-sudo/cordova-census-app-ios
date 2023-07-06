@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gilbert.TranogasyCensusApp" version="1.0.0"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tranogasy RecApp</name>
+    <icon src="www/images/icon-logo.png"/>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="Orientation" value="portrait" />
+    <description>application de recensement tranogasy</description>
+    <author email="dev@gilbert.mg" href="https://gilbert.tranogasy.mg">
+        Gilbert Madagascar Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="*/*" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <whitelist>
+        <allow-origin>http://localhost:3600</allow-origin>
+    </whitelist>
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.5-dev" />
+</widget>
